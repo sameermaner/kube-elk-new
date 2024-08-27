@@ -34,7 +34,7 @@ spec:
   updateStrategy:
     type: RollingUpdate
   serviceName: elasticsearch-headless
-  replicas: 1
+  replicas: 3
   selector:
     matchLabels:
       app: elasticsearch
